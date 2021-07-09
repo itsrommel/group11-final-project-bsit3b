@@ -1,0 +1,35 @@
+.imageupload{
+  display: flex;
+  flex-direction: column;
+  max-width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  min-width: 50px;
+}
+.imageupload__progress{
+  width: 100%;
+  padding: 15px;
+}
+.captiontext{
+  border: 1px solid lightgrey;
+  padding: 10px;
+  margin-bottom: 5px;
+  border-radius: 20px;
+  font-size: 15px;
+  margin-top: 20px;
+}
+.upload_box{
+  font-size: 15px;
+  border-radius: 5px;
+  outline: none;
+}
+::-webkit-file-upload-button{
+  color: white;
+  background: black;
+  padding: 5px;
+  border: none;
+  border-radius: 20px;
+  outline: none;
+}
